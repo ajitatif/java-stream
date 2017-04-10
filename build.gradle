@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+group 'org.turkisi.training.stream'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.8.8'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.8'
+}
